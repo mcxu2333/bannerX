@@ -1,0 +1,46 @@
+.imgBox img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    border: 0;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin-top: -20px;
+    font-size: 18px;
+    color: #999;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 101;
+    opacity: 0;
+}
+
+.left {
+    left: 3%;
+}
+
+.right {
+    right: 3%;
+}
+
+.imgBox:hover + .left,
+.imgBox:hover + .left +.right,
+.left:hover,.right:hover {
+
+    opacity: 1;
+}
+
+.imgBox {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    font-size: 0;
+    position: relative;
+}
