@@ -1,7 +1,7 @@
 # bannerX
 基于JQuery的轮播图插件
-* 使用方法
-1、引入`bannerX.css` 再依次引入 `jQuery.js` 和 `bannweX.js` ;
+* 使用方法:</br>
+1、引入`bannerX.css` 再依次引入 `jQuery.js` 和 `bannweX.js` ;</br>
 2、对需要实现banner效果的容器使用 `bannerX API`实现效果：
 ```javascript
   $('div.demo').bannerX({
