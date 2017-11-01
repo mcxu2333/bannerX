@@ -16,4 +16,4 @@
 -------|-------|-----------------------
 width  |string |轮播图片宽度            
 height |string |轮播图高度              
-imgs   |arr    |必须，图片url的字符串数组
+imgs   |array  |必须，图片url的字符串数组
